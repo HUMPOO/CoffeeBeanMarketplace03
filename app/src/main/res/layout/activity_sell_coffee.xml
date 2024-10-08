@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etCoffeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Coffee Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etCoffeePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etCoffeeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>
